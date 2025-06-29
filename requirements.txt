@@ -3,3 +3,6 @@ uvicorn
 pymongo
 python-dotenv
 bcrypt
+pydantic
+python-jose
+requests

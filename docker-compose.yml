@@ -1,0 +1,27 @@
+version: "3.8"
+
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    depends_on:
+      - mongodb
+    volumes:
+      - ./src:/usr/local/app/src  
+    environment:
+      MONGO_URI: mongodb://shorryah:mongo123@mongodb:27017/user_db?authSource=admin
+
+  mongodb:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: shorryah
+      MONGO_INITDB_ROOT_PASSWORD: mongo123
+      MONGO_INITDB_DATABASE: user_db
+    volumes:
+      - mongodata:/data/db
+
+volumes:
+  mongodata:
