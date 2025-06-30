@@ -1,3 +1,4 @@
+
 name: medbot #name of ollama model
 base: mistral:latest #medbot is based on mistral
 
