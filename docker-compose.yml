@@ -1,5 +1,3 @@
-
-
 services:
   api:
     build: .
@@ -7,10 +5,13 @@ services:
       - "8000:8000"
     depends_on:
       - mongodb
+      - ollama
     volumes:
       - ./src:/usr/local/app/src  
     environment:
       MONGO_URI: mongodb://shorryah:mongo123@mongodb:27017/user_db?authSource=admin
+    networks:
+      - appnet
 
   mongodb:
     image: mongo:latest
@@ -22,6 +23,24 @@ services:
       MONGO_INITDB_DATABASE: user_db
     volumes:
       - mongodata:/data/db
+    networks:
+      - appnet
+
+  ollama:
+    image: ollama/ollama
+    container_name: ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    restart: unless-stopped
+    networks:
+      - appnet
 
 volumes:
   mongodata:
+  ollama_data:
+
+networks:
+  appnet:
+    driver: bridge

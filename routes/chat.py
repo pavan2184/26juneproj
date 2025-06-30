@@ -29,13 +29,13 @@ def ask_medical_question(q: ChatRequest, user_info: str = Depends(verify_token))
 
     # prepares the JSON preload with model name that will be used, prompt text and the maximum number of tokens ollama will use to answer the qn
     payload = {
-        "model": "medbot:latest",   
+        "model": "mistral",   
         "prompt": prompt,
-        "max_tokens": 256
+        "stream": False 
     }
 
     try:
-        response = requests.post("http://localhost:11434/api/generate", json=payload) # post request is sent to ollama
+        response = requests.post("http://ollama:11434/api/generate", json=payload) # post request is sent to ollama
         response.raise_for_status() # checks if request is successful
         raw_text = response.text # gets the raw ollama response
 
