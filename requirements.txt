@@ -1,8 +1,8 @@
 fastapi
 uvicorn
 pymongo
-python-dotenv
-bcrypt
-pydantic
-python-jose
+PyJWT
+pydantic[email]
+passlib[bcrypt]
 requests
+beautifulsoup4
