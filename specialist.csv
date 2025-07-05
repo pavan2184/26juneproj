@@ -1,0 +1,144 @@
+Disease,Specialist
+Allergy,You should consult an Allergist
+Anaphylaxis,You should consult an Allergist
+Asthma,You should consult an Allergist / Pulmonologist
+Drug Reaction,You should consult an Allergist
+Hives (Urticaria),You should consult an Allergist
+Atopic dermatitis,You should consult an Allergist/Dermatologist
+
+Chest pain,You should consult a Cardiologist
+Angina,You should consult a Cardiologist
+Arrhythmia,You should consult a Cardiologist
+Congestive heart failure,You should consult a Cardiologist
+Heart attack,You should consult a Cardiologist
+High blood pressure (Hypertension),You should consult a Cardiologist
+Hypertension,You should consult a Cardiologist
+
+Toothache,You should consult a Dentist
+Dental cavities,You should consult a Dentist
+Gum disease,You should consult a Dentist
+
+Fungal infection,You should consult a Dermatologist
+Acne,You should consult a Dermatologist
+Psoriasis,You should consult a Dermatologist
+Impetigo,You should consult a Dermatologist
+Eczema,You should consult a Dermatologist
+Rosacea,You should consult a Dermatologist
+Vitiligo,You should consult a Dermatologist
+Skin cancer,You should consult a Dermatologist / Oncologist
+
+Hypoglycemia,You should consult an Endocrinologist
+Hyperthyroidism,You should consult an Endocrinologist
+Hypothyroidism,You should consult an Endocrinologist
+Diabetes mellitus,You should consult an Endocrinologist
+Thyroid nodules,You should consult an Endocrinologist
+Osteoporosis,You should consult an Endocrinologist / Rheumatologist
+Weight gain/loss,You should consult a Nutritionist / Endocrinologist
+
+Ear infection,You should consult an ENT Specialist
+Hearing loss,You should consult an ENT Specialist
+Sinusitis,You should consult an ENT Specialist
+
+GERD,You should consult a Gastroenterologist
+Peptic ulcer disease,You should consult a Gastroenterologist
+Gastritis,You should consult a Gastroenterologist
+Gastroenteritis,You should consult a Gastroenterologist
+Crohn's disease,You should consult a Gastroenterologist
+Ulcerative colitis,You should consult a Gastroenterologist
+Inflammatory bowel disease,You should consult a Gastroenterologist
+Colon cancer,You should consult a Gastroenterologist / Oncologist
+Gastroesophageal reflux disease (GERD),You should consult a Gastroenterologist
+Jaundice,You should consult a Gastroenterologist / Hepatologist
+
+Menstrual irregularities,You should consult a Gynecologist
+Infertility,You should consult a Gynecologist / Reproductive Endocrinologist
+Breast lump,You should consult an Oncologist / Gynecologist
+
+Chronic cholestasis,You should consult a Hepatologist
+Hepatitis A,You should consult a Hepatologist
+Hepatitis B,You should consult a Hepatologist
+Hepatitis C,You should consult a Hepatologist
+Hepatitis D,You should consult a Hepatologist
+Hepatitis E,You should consult a Hepatologist
+Alcoholic hepatitis,You should consult a Hepatologist
+Cirrhosis,You should consult a Hepatologist
+
+Immune disorders,You should consult an Immunologist
+
+HIV/AIDS,You should consult an Infectious Disease Doctor
+Dengue,You should consult an Infectious Disease Doctor
+Malaria,You should consult an Infectious Disease Doctor
+Measles,You should consult an Infectious Disease Doctor
+Swollen lymph nodes,You should consult an Infectious Disease Doctor / Oncologist
+Tuberculosis,You should consult an Infectious Disease Doctor
+Typhoid,You should consult an Infectious Disease Doctor
+
+Chronic kidney disease,You should consult a Nephrologist
+Kidney failure,You should consult a Nephrologist
+
+Alzheimer's disease,You should consult a Neurologist
+Migraine,You should consult a Neurologist
+Stroke,You should consult a Neurologist
+Seizures,You should consult a Neurologist
+Multiple sclerosis,You should consult a Neurologist
+Dizziness / vertigo,You should consult a Neurologist
+Vertigo,You should consult a Neurologist
+Epilepsy,You should consult a Neurologist
+Huntington's disease,You should consult a Neurologist
+
+Paralysis (brain hemorrhage),You should consult a Neurosurgeon
+Brain tumor,You should consult a Neurosurgeon
+
+Cancer (general),You should consult an Oncologist
+Skin cancer,You should consult a Dermatologist / Oncologist
+Breast lump,You should consult an Oncologist / Gynecologist
+Colon cancer,You should consult a Gastroenterologist / Oncologist
+Lung cancer,You should consult a Pulmonologist / Oncologist
+Prostate cancer,You should consult a Urologist / Oncologist
+Swollen lymph nodes,You should consult an Infectious Disease Doctor / Oncologist
+
+Pregnancy care,You should consult an Obstetrician-Gynecologist
+
+Eye pain,You should consult an Ophthalmologist
+Cataracts,You should consult an Ophthalmologist
+Glaucoma,You should consult an Ophthalmologist
+Retinal diseases,You should consult an Ophthalmologist
+
+Cervical spondylosis,You should consult an Orthopedic
+Osteoarthritis,You should consult an Orthopedic
+Arthritis,You should consult an Orthopedic / Rheumatologist
+Back pain,You should consult an Orthopedic
+Fracture,You should consult an Orthopedic
+
+Fatigue (chronic),You should consult a Primary Care Provider / Internist
+Chicken pox,You should consult a Primary Care Provider
+Common cold,You should consult a Primary Care Provider
+Influenza,You should consult a Primary Care Provider
+Flu / Influenza,You should consult a Primary Care Provider
+
+Hemorrhoids,You should consult a Proctologist
+Dimorphic hemorrhoids (piles),You should consult a Proctologist
+
+Anxiety,You should consult a Psychiatrist
+Depression,You should consult a Psychiatrist
+Bipolar disorder,You should consult a Psychiatrist
+Eating disorders,You should consult a Nutritionist / Psychiatrist
+Schizophrenia,You should consult a Psychiatrist
+
+
+Rheumatoid arthritis,You should consult a Rheumatologist
+Lupus,You should consult a Rheumatologist
+Fibromyalgia,You should consult a Rheumatologist
+Gout,You should consult a Rheumatologist
+
+COPD (Chronic Obstructive Pulmonary Disease),You should consult a Pulmonologist
+Bronchial asthma,You should consult a Pulmonologist
+Pneumonia,You should consult a Pulmonologist
+Emphysema,You should consult a Pulmonologist
+
+Peripheral artery disease,You should consult a Vascular Surgeon
+Varicose veins,You should consult a Vascular Surgeon
+
+Urinary tract infection,You should consult a Urologist
+Kidney stones,You should consult a Urologist
+Prostate enlargement,You should consult a Urologist
